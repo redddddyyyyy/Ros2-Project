@@ -1,0 +1,12 @@
+name: colcon-ci
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ros-tooling/setup-ros@v0.6
+        with:
+          required-distributions: humble
+      - run: colcon build --packages-select py_pubsub --symlink-install
