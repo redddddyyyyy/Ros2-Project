@@ -1,0 +1,19 @@
+class Talker(Node):
+    def __init__(self):
+        super().__init__('talker')
+
+        self.declare_parameter('publish_rate', 1.0)  # 4 spaces before each of these
+        rate = self.get_parameter('publish_rate').value
+        timer_period = 1.0 / rate
+
+        self.publisher = self.create_publisher(String, 'chatter', 10)
+        self.timer = self.create_timer(timer_period, self.timer_cb)
+
+        self.counter = 0
+
+    def timer_cb(self):
+        msg = String()
+        msg.data = f'Howdy ROS 2: {self.counter}'
+        self.publisher.publish(msg)
+        self.get_logger().info(f'Publishing: {msg.data}')
+        self.counter += 1

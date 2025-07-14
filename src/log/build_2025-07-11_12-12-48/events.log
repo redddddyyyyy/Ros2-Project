@@ -1,0 +1,78 @@
+[0.000000] (-) TimerEvent: {}
+[0.000202] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000222] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000233] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000243] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000251] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000260] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000269] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000281] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000290] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000298] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000306] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000335] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000371] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000431] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000465] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000495] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000525] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000555] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000587] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000599] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000629] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000831] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.001379] (-) JobUnselected: {'identifier': 'py_service'}
+[0.001405] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.001419] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.001434] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.099720] (-) TimerEvent: {}
+[0.200007] (-) TimerEvent: {}
+[0.300466] (-) TimerEvent: {}
+[0.400783] (-) TimerEvent: {}
+[0.501044] (-) TimerEvent: {}
+[0.535394] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/py_pubsub', 'build', '--build-base', '/home/reddy/ros2_ws/src/build/py_pubsub/build', 'install', '--record', '/home/reddy/ros2_ws/src/build/py_pubsub/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/reddy/ros2_ws/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'reddy', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/reddy', 'OLDPWD': '/home/reddy/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/reddy/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'reddy', 'NAME': 'reddy', 'WSL_INTEROP': '/run/WSL/847_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Users/rajee/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/rajee/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/reddy/ros2_ws/install/py_srvcli:/home/reddy/ros2_ws/install/py_pubsub:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/reddy/ros2_ws/src/build/py_pubsub', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/reddy/ros2_ws/src/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/reddy/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages:/home/reddy/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/reddy/ros2_ws/build/py_pubsub:/home/reddy/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[0.601098] (-) TimerEvent: {}
+[0.676303] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[0.676684] (py_pubsub) StdoutLine: {'line': b'creating ../build/py_pubsub/py_pubsub.egg-info\n'}
+[0.676889] (py_pubsub) StdoutLine: {'line': b'writing ../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[0.676963] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[0.677359] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[0.677427] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[0.677585] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[0.677678] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[0.679499] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[0.679790] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[0.680161] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[0.680246] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[0.680430] (py_pubsub) StdoutLine: {'line': b'creating /home/reddy/ros2_ws/src/build/py_pubsub/build\n'}
+[0.680540] (py_pubsub) StdoutLine: {'line': b'creating /home/reddy/ros2_ws/src/build/py_pubsub/build/lib\n'}
+[0.680573] (py_pubsub) StdoutLine: {'line': b'creating /home/reddy/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.680683] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/listener.py -> /home/reddy/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.681168] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/talker.py -> /home/reddy/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.681255] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/__init__.py -> /home/reddy/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.681470] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[0.681514] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[0.681957] (py_pubsub) StdoutLine: {'line': b'creating /home/reddy/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[0.682034] (py_pubsub) StdoutLine: {'line': b'copying /home/reddy/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub/listener.py -> /home/reddy/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[0.682232] (py_pubsub) StdoutLine: {'line': b'copying /home/reddy/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub/talker.py -> /home/reddy/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[0.682312] (py_pubsub) StdoutLine: {'line': b'copying /home/reddy/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/reddy/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[0.682491] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/reddy/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/listener.py to listener.cpython-310.pyc\n'}
+[0.682890] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/reddy/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/talker.py to talker.cpython-310.pyc\n'}
+[0.683337] (py_pubsub) StderrLine: {'line': b'Sorry: TabError: inconsistent use of tabs and spaces in indentation (talker.py, line 10)\n'}
+[0.683591] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/reddy/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc\n'}
+[0.683730] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[0.683801] (py_pubsub) StdoutLine: {'line': b'creating /home/reddy/ros2_ws/src/install/py_pubsub/share/ament_index\n'}
+[0.683902] (py_pubsub) StdoutLine: {'line': b'creating /home/reddy/ros2_ws/src/install/py_pubsub/share/ament_index/resource_index\n'}
+[0.684015] (py_pubsub) StdoutLine: {'line': b'creating /home/reddy/ros2_ws/src/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[0.684133] (py_pubsub) StdoutLine: {'line': b'copying resource/py_pubsub -> /home/reddy/ros2_ws/src/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[0.684224] (py_pubsub) StdoutLine: {'line': b'copying package.xml -> /home/reddy/ros2_ws/src/install/py_pubsub/share/py_pubsub\n'}
+[0.684407] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.685610] (py_pubsub) StdoutLine: {'line': b'Copying ../build/py_pubsub/py_pubsub.egg-info to /home/reddy/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info\n'}
+[0.686326] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[0.698668] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/reddy/ros2_ws/src/install/py_pubsub/lib/py_pubsub\n'}
+[0.698760] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/reddy/ros2_ws/src/install/py_pubsub/lib/py_pubsub\n'}
+[0.698848] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/reddy/ros2_ws/src/build/py_pubsub/install.log'\n"}
+[0.701173] (-) TimerEvent: {}
+[0.719844] (py_pubsub) CommandEnded: {'returncode': 0}
+[0.739934] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[0.741425] (-) EventReactorShutdown: {}
