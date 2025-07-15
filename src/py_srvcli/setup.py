@@ -19,10 +19,10 @@ setup(
     license='MIT',            # or keep TODO if you prefer
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': [
-            'add_two_ints_server = py_srvcli.add_two_ints_server:main',
-            'add_two_ints_client = py_srvcli.add_two_ints_client:main',
-        ],
-    },
+    'console_scripts': [
+        'add_two_ints_server = py_srvcli.add_two_ints_server:main',
+        'retry_add_two_ints_client = py_srvcli.retry_add_two_ints_client:main',
+    ],
+},
 )   # ←—— the critical closing parenthesis
 
