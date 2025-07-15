@@ -1,0 +1,5 @@
+int32 seconds        # Goal: how long to count down
+---
+bool  success        # Result: always true for now
+---
+int32 remaining      # Feedback: seconds left
