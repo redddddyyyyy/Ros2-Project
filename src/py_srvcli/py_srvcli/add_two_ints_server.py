@@ -1,23 +1,26 @@
-#!/usr/bin/env python3
+from example_interfaces.srv import AddTwoInts
 import rclpy
 from rclpy.node import Node
-from example_interfaces.srv import AddTwoInts   # built-in service type
 
 class AddTwoIntsServer(Node):
     def __init__(self):
         super().__init__('add_two_ints_server')
-        # Advertise a service named 'add_two_ints'
-        self.create_service(AddTwoInts, 'add_two_ints', self.handle_request)
+        self.srv = self.create_service(
+            AddTwoInts, 'add_two_ints', self.add_ints_callback)
 
-    def handle_request(self, request, response):
-        self.get_logger().info(f'{request.a} + {request.b}')
-        response.sum = request.a + request.b     # put result in response
+    def add_ints_callback(self, request, response):
+        a, b = request.a, request.b
+        result = a + b
+        self.get_logger().info(f'Req: {a}+{b} => {result}')
+        response.sum = result
         return response
 
-def main():
-    rclpy.init()
-    rclpy.spin(AddTwoIntsServer())   # keep node alive
+def main(args=None):
+    rclpy.init(args=args)
+    node = AddTwoIntsServer()
+    rclpy.spin(node)
     rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
+
