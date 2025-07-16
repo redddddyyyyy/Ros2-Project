@@ -1,8 +1,8 @@
 import asyncio
 import rclpy
 from rclpy.node   import Node
-from rclpy.action import ActionServer
-from py_srvcli.action import Countdown   # auto-generated at build time
+from rclpy.action import ActionServer  # auto-generated at build time
+from countdown_interfaces.action import Countdown
 
 class CountdownServer(Node):
     def __init__(self):

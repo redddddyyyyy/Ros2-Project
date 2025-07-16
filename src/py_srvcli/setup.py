@@ -1,5 +1,6 @@
-from setuptools import setup
 from glob import glob
+from setuptools import setup
+
 package_name = 'py_srvcli'
 
 setup(
@@ -16,17 +17,15 @@ setup(
     zip_safe=True,
     maintainer='reddy',
     maintainer_email='rajeevreddy1009@gmail.com',
-    description='AddTwoInts service/client demo',
-    license='MIT',            # or keep TODO if you prefer
-    tests_require=['pytest'],
+    description='Service & Action demo package',
+    license='TODO',                       # change if you have a license
     entry_points={
     'console_scripts': [
-        'add_two_ints_server = py_srvcli.add_two_ints_server:main',
-        'retry_add_two_ints_client = py_srvcli.retry_add_two_ints_client:main',
-        'countdown_server      = py_srvcli.countdown_server:main',
-        'countdown_client      = py_srvcli.countdown_client:main',
+        'add_two_ints_server        = py_srvcli.add_two_ints_server:main',
+        'retry_add_two_ints_client  = py_srvcli.retry_add_two_ints_client:main',
+        'countdown_server           = py_srvcli.countdown_server:main',
+        'countdown_client           = py_srvcli.countdown_client:main',
     ],
 },
-
-)   # ←—— the critical closing parenthesis
+)
 
