@@ -1,0 +1,4 @@
+configurable_talker:
+  ros__parameters:
+    msg_text: "Day-8 YAML ✨"
+    rate_hz: 10.0

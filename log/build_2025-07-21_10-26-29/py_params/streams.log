@@ -1,0 +1,18 @@
+[0.341s] Invoking command in '/home/reddy/ros2_ws/build/py_params': PYTHONPATH=/home/reddy/ros2_ws/build/py_params/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/reddy/ros2_ws/install/py_params/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/reddy/ros2_ws/build/py_params/build --no-deps symlink_data
+[0.463s] running develop
+[0.531s] running egg_info
+[0.531s] writing py_params.egg-info/PKG-INFO
+[0.531s] writing dependency_links to py_params.egg-info/dependency_links.txt
+[0.531s] writing entry points to py_params.egg-info/entry_points.txt
+[0.531s] writing requirements to py_params.egg-info/requires.txt
+[0.531s] writing top-level names to py_params.egg-info/top_level.txt
+[0.532s] reading manifest file 'py_params.egg-info/SOURCES.txt'
+[0.532s] writing manifest file 'py_params.egg-info/SOURCES.txt'
+[0.533s] running build_ext
+[0.533s] Creating /home/reddy/ros2_ws/install/py_params/lib/python3.10/site-packages/py-params.egg-link (link to .)
+[0.533s] Installing configurable_talker script to /home/reddy/ros2_ws/install/py_params/bin
+[0.533s] 
+[0.533s] Installed /home/reddy/ros2_ws/build/py_params
+[0.533s] running symlink_data
+[0.534s] error: can't copy '/home/reddy/ros2_ws/build/py_params/launch/demo_system.launch.py': doesn't exist or not a regular file
+[0.548s] Invoked command in '/home/reddy/ros2_ws/build/py_params' returned '1': PYTHONPATH=/home/reddy/ros2_ws/build/py_params/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/reddy/ros2_ws/install/py_params/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/reddy/ros2_ws/build/py_params/build --no-deps symlink_data

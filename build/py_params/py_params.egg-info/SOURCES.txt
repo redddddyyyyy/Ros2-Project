@@ -1,0 +1,14 @@
+package.xml
+setup.py
+talker_params.yaml
+launch/demo_system.launch.py
+py_params/__init__.py
+py_params/configurable_talker.py
+py_params.egg-info/PKG-INFO
+py_params.egg-info/SOURCES.txt
+py_params.egg-info/dependency_links.txt
+py_params.egg-info/entry_points.txt
+py_params.egg-info/requires.txt
+py_params.egg-info/top_level.txt
+py_params.egg-info/zip-safe
+resource/py_params
