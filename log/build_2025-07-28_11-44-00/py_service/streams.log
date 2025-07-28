@@ -1,0 +1,33 @@
+[2.981s] Invoking command in '/home/reddy/ros2_ws/src/py_service': PYTHONPATH=/home/reddy/ros2_ws/build/py_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/reddy/ros2_ws/install/py_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_service build --build-base /home/reddy/ros2_ws/build/py_service/build install --record /home/reddy/ros2_ws/build/py_service/install.log --single-version-externally-managed install_data
+[3.227s] running egg_info
+[3.227s] creating ../../build/py_service/py_service.egg-info
+[3.228s] writing ../../build/py_service/py_service.egg-info/PKG-INFO
+[3.229s] writing dependency_links to ../../build/py_service/py_service.egg-info/dependency_links.txt
+[3.229s] writing entry points to ../../build/py_service/py_service.egg-info/entry_points.txt
+[3.230s] writing requirements to ../../build/py_service/py_service.egg-info/requires.txt
+[3.230s] writing top-level names to ../../build/py_service/py_service.egg-info/top_level.txt
+[3.233s] writing manifest file '../../build/py_service/py_service.egg-info/SOURCES.txt'
+[3.233s] reading manifest file '../../build/py_service/py_service.egg-info/SOURCES.txt'
+[3.234s] writing manifest file '../../build/py_service/py_service.egg-info/SOURCES.txt'
+[3.234s] running build
+[3.235s] running build_py
+[3.235s] creating /home/reddy/ros2_ws/build/py_service/build
+[3.239s] creating /home/reddy/ros2_ws/build/py_service/build/lib
+[3.239s] creating /home/reddy/ros2_ws/build/py_service/build/lib/py_service
+[3.239s] copying py_service/__init__.py -> /home/reddy/ros2_ws/build/py_service/build/lib/py_service
+[3.239s] running install
+[3.239s] running install_lib
+[3.240s] creating /home/reddy/ros2_ws/install/py_service/lib/python3.10/site-packages/py_service
+[3.240s] copying /home/reddy/ros2_ws/build/py_service/build/lib/py_service/__init__.py -> /home/reddy/ros2_ws/install/py_service/lib/python3.10/site-packages/py_service
+[3.240s] byte-compiling /home/reddy/ros2_ws/install/py_service/lib/python3.10/site-packages/py_service/__init__.py to __init__.cpython-310.pyc
+[3.240s] running install_data
+[3.240s] creating /home/reddy/ros2_ws/install/py_service/share/ament_index
+[3.240s] creating /home/reddy/ros2_ws/install/py_service/share/ament_index/resource_index
+[3.240s] creating /home/reddy/ros2_ws/install/py_service/share/ament_index/resource_index/packages
+[3.240s] copying resource/py_service -> /home/reddy/ros2_ws/install/py_service/share/ament_index/resource_index/packages
+[3.240s] copying package.xml -> /home/reddy/ros2_ws/install/py_service/share/py_service
+[3.240s] running install_egg_info
+[3.242s] Copying ../../build/py_service/py_service.egg-info to /home/reddy/ros2_ws/install/py_service/lib/python3.10/site-packages/py_service-0.0.0-py3.10.egg-info
+[3.243s] running install_scripts
+[3.267s] writing list of installed files to '/home/reddy/ros2_ws/build/py_service/install.log'
+[3.381s] Invoked command in '/home/reddy/ros2_ws/src/py_service' returned '0': PYTHONPATH=/home/reddy/ros2_ws/build/py_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/reddy/ros2_ws/install/py_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_service build --build-base /home/reddy/ros2_ws/build/py_service/build install --record /home/reddy/ros2_ws/build/py_service/install.log --single-version-externally-managed install_data

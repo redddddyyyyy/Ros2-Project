@@ -1,0 +1,3 @@
+[console_scripts]
+configurable_talker = py_params.configurable_talker:main
+

@@ -82,7 +82,6 @@ _colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/py_params/hook/pa
 _colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/py_params/hook/pythonpath.sh"
 _colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/py_params/hook/pythonscriptspath.sh"
 _colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/py_params/hook/ament_prefix_path.sh"
-_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/../../build/py_params/share/py_params/hook/pythonpath_develop.sh"
 
 unset _colcon_package_sh_source_script
 unset COLCON_CURRENT_PREFIX

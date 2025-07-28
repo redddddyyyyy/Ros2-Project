@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/py_params/py_params.egg-info
+writing ../../build/py_params/py_params.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_params/py_params.egg-info/dependency_links.txt
+writing entry points to ../../build/py_params/py_params.egg-info/entry_points.txt
+writing requirements to ../../build/py_params/py_params.egg-info/requires.txt
+writing top-level names to ../../build/py_params/py_params.egg-info/top_level.txt
+writing manifest file '../../build/py_params/py_params.egg-info/SOURCES.txt'
+reading manifest file '../../build/py_params/py_params.egg-info/SOURCES.txt'
+writing manifest file '../../build/py_params/py_params.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/reddy/ros2_ws/build/py_params/build
+creating /home/reddy/ros2_ws/build/py_params/build/lib
+creating /home/reddy/ros2_ws/build/py_params/build/lib/py_params
+copying py_params/configurable_talker.py -> /home/reddy/ros2_ws/build/py_params/build/lib/py_params
+copying py_params/__init__.py -> /home/reddy/ros2_ws/build/py_params/build/lib/py_params
+running install
+running install_lib
+creating /home/reddy/ros2_ws/install/py_params/lib/python3.10/site-packages/py_params
+copying /home/reddy/ros2_ws/build/py_params/build/lib/py_params/configurable_talker.py -> /home/reddy/ros2_ws/install/py_params/lib/python3.10/site-packages/py_params
+copying /home/reddy/ros2_ws/build/py_params/build/lib/py_params/__init__.py -> /home/reddy/ros2_ws/install/py_params/lib/python3.10/site-packages/py_params
+byte-compiling /home/reddy/ros2_ws/install/py_params/lib/python3.10/site-packages/py_params/configurable_talker.py to configurable_talker.cpython-310.pyc
+byte-compiling /home/reddy/ros2_ws/install/py_params/lib/python3.10/site-packages/py_params/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/reddy/ros2_ws/install/py_params/share/ament_index
+creating /home/reddy/ros2_ws/install/py_params/share/ament_index/resource_index
+creating /home/reddy/ros2_ws/install/py_params/share/ament_index/resource_index/packages
+copying resource/py_params -> /home/reddy/ros2_ws/install/py_params/share/ament_index/resource_index/packages
+copying package.xml -> /home/reddy/ros2_ws/install/py_params/share/py_params
+creating /home/reddy/ros2_ws/install/py_params/share/py_params/launch
+copying launch/demo_system.launch.py -> /home/reddy/ros2_ws/install/py_params/share/py_params/launch
+copying talker_params.yaml -> /home/reddy/ros2_ws/install/py_params/share/py_params
+running install_egg_info
+Copying ../../build/py_params/py_params.egg-info to /home/reddy/ros2_ws/install/py_params/lib/python3.10/site-packages/py_params-0.0.0-py3.10.egg-info
+running install_scripts
+Installing configurable_talker script to /home/reddy/ros2_ws/install/py_params/bin
+writing list of installed files to '/home/reddy/ros2_ws/build/py_params/install.log'

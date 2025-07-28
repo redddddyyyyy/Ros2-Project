@@ -1,1 +1,0 @@
-/home/reddy/ros2_ws/src/py_params/launch/demo_system.launch.py

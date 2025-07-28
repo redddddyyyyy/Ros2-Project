@@ -1,0 +1,31 @@
+running egg_info
+creating ../build/py_clint/py_clint.egg-info
+writing ../build/py_clint/py_clint.egg-info/PKG-INFO
+writing dependency_links to ../build/py_clint/py_clint.egg-info/dependency_links.txt
+writing entry points to ../build/py_clint/py_clint.egg-info/entry_points.txt
+writing requirements to ../build/py_clint/py_clint.egg-info/requires.txt
+writing top-level names to ../build/py_clint/py_clint.egg-info/top_level.txt
+writing manifest file '../build/py_clint/py_clint.egg-info/SOURCES.txt'
+reading manifest file '../build/py_clint/py_clint.egg-info/SOURCES.txt'
+writing manifest file '../build/py_clint/py_clint.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/reddy/ros2_ws/build/py_clint/build
+creating /home/reddy/ros2_ws/build/py_clint/build/lib
+creating /home/reddy/ros2_ws/build/py_clint/build/lib/py_clint
+copying py_clint/__init__.py -> /home/reddy/ros2_ws/build/py_clint/build/lib/py_clint
+running install
+running install_lib
+creating /home/reddy/ros2_ws/install/py_clint/lib/python3.10/site-packages/py_clint
+copying /home/reddy/ros2_ws/build/py_clint/build/lib/py_clint/__init__.py -> /home/reddy/ros2_ws/install/py_clint/lib/python3.10/site-packages/py_clint
+byte-compiling /home/reddy/ros2_ws/install/py_clint/lib/python3.10/site-packages/py_clint/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/reddy/ros2_ws/install/py_clint/share/ament_index
+creating /home/reddy/ros2_ws/install/py_clint/share/ament_index/resource_index
+creating /home/reddy/ros2_ws/install/py_clint/share/ament_index/resource_index/packages
+copying resource/py_clint -> /home/reddy/ros2_ws/install/py_clint/share/ament_index/resource_index/packages
+copying package.xml -> /home/reddy/ros2_ws/install/py_clint/share/py_clint
+running install_egg_info
+Copying ../build/py_clint/py_clint.egg-info to /home/reddy/ros2_ws/install/py_clint/lib/python3.10/site-packages/py_clint-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/reddy/ros2_ws/build/py_clint/install.log'

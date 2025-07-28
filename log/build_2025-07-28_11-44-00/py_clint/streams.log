@@ -1,0 +1,33 @@
+[3.025s] Invoking command in '/home/reddy/ros2_ws/py_clint': PYTHONPATH=/home/reddy/ros2_ws/build/py_clint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/reddy/ros2_ws/install/py_clint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/py_clint build --build-base /home/reddy/ros2_ws/build/py_clint/build install --record /home/reddy/ros2_ws/build/py_clint/install.log --single-version-externally-managed install_data
+[3.410s] running egg_info
+[3.410s] creating ../build/py_clint/py_clint.egg-info
+[3.411s] writing ../build/py_clint/py_clint.egg-info/PKG-INFO
+[3.411s] writing dependency_links to ../build/py_clint/py_clint.egg-info/dependency_links.txt
+[3.411s] writing entry points to ../build/py_clint/py_clint.egg-info/entry_points.txt
+[3.411s] writing requirements to ../build/py_clint/py_clint.egg-info/requires.txt
+[3.411s] writing top-level names to ../build/py_clint/py_clint.egg-info/top_level.txt
+[3.411s] writing manifest file '../build/py_clint/py_clint.egg-info/SOURCES.txt'
+[3.411s] reading manifest file '../build/py_clint/py_clint.egg-info/SOURCES.txt'
+[3.411s] writing manifest file '../build/py_clint/py_clint.egg-info/SOURCES.txt'
+[3.412s] running build
+[3.412s] running build_py
+[3.412s] creating /home/reddy/ros2_ws/build/py_clint/build
+[3.412s] creating /home/reddy/ros2_ws/build/py_clint/build/lib
+[3.412s] creating /home/reddy/ros2_ws/build/py_clint/build/lib/py_clint
+[3.412s] copying py_clint/__init__.py -> /home/reddy/ros2_ws/build/py_clint/build/lib/py_clint
+[3.412s] running install
+[3.412s] running install_lib
+[3.412s] creating /home/reddy/ros2_ws/install/py_clint/lib/python3.10/site-packages/py_clint
+[3.412s] copying /home/reddy/ros2_ws/build/py_clint/build/lib/py_clint/__init__.py -> /home/reddy/ros2_ws/install/py_clint/lib/python3.10/site-packages/py_clint
+[3.412s] byte-compiling /home/reddy/ros2_ws/install/py_clint/lib/python3.10/site-packages/py_clint/__init__.py to __init__.cpython-310.pyc
+[3.412s] running install_data
+[3.413s] creating /home/reddy/ros2_ws/install/py_clint/share/ament_index
+[3.413s] creating /home/reddy/ros2_ws/install/py_clint/share/ament_index/resource_index
+[3.413s] creating /home/reddy/ros2_ws/install/py_clint/share/ament_index/resource_index/packages
+[3.413s] copying resource/py_clint -> /home/reddy/ros2_ws/install/py_clint/share/ament_index/resource_index/packages
+[3.413s] copying package.xml -> /home/reddy/ros2_ws/install/py_clint/share/py_clint
+[3.413s] running install_egg_info
+[3.413s] Copying ../build/py_clint/py_clint.egg-info to /home/reddy/ros2_ws/install/py_clint/lib/python3.10/site-packages/py_clint-0.0.0-py3.10.egg-info
+[3.413s] running install_scripts
+[3.413s] writing list of installed files to '/home/reddy/ros2_ws/build/py_clint/install.log'
+[3.452s] Invoked command in '/home/reddy/ros2_ws/py_clint' returned '0': PYTHONPATH=/home/reddy/ros2_ws/build/py_clint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/reddy/ros2_ws/install/py_clint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/py_clint build --build-base /home/reddy/ros2_ws/build/py_clint/build install --record /home/reddy/ros2_ws/build/py_clint/install.log --single-version-externally-managed install_data

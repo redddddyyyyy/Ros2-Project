@@ -10,6 +10,3 @@ source;share/py_params/hook/pythonscriptspath.sh
 source;share/py_params/hook/ament_prefix_path.ps1
 source;share/py_params/hook/ament_prefix_path.dsv
 source;share/py_params/hook/ament_prefix_path.sh
-source;../../build/py_params/share/py_params/hook/pythonpath_develop.ps1
-source;../../build/py_params/share/py_params/hook/pythonpath_develop.dsv
-source;../../build/py_params/share/py_params/hook/pythonpath_develop.sh
